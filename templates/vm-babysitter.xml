@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>vm-babysitter</Name>
-  <Repository>ghcr.io/staffwerke/vm-babysitter</Repository>
+  <Repository>ghcr.io/staffwerke/staffwerke/vm-babysitter</Repository>
   <Registry>https://github.com/Staffwerke/vm-babysitter/pkgs/container/staffwerke%2Fvm-babysitter</Registry>
   <Network>host</Network>
   <MyIP/>
