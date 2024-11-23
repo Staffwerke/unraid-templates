@@ -1,27 +1,29 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>vm-babysitter</Name>
-  <Repository>docker.staffwerke.de/vm-babysitter:latest</Repository>
-  <Registry/>
+  <Overview>Automatic Backup &amp; Monitoring utility for QEMU/KVM Virtual Machines (powered by Virtnbdbackup)</Overview>
+  <Registry>https://github.com/Staffwerke/vm-babysitter</Registry>
+  <Repository>ghcr.io/staffwerke/vm-babysitter</Repository>
+  <Icon>https://raw.githubusercontent.com/Staffwerke/unraid-templates/refs/heads/master/icons/vm-babysitter-icon.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/Staffwerke/unraid-templates/refs/heads/master/templates/vm-babysitter.xml</TemplateURL>
+  <Project>https://github.com/Staffwerke/vm-babysitter</Project>
+  <GitHub>https://github.com/Staffwerke/vm-babysitter</GitHub>
+  <ReadMe>https://github.com/Staffwerke/vm-babysitter?tab=readme-ov-file#readme</ReadMe>
+  <Support><Support/>
+  <Category>Backup</Category>
   <Network>host</Network>
-  <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support/>
-  <Project/>
-  <GitHub></GitHub>
-  <Overview>Automatic Backup &amp; Monitoring utility for QEMU/KVM Virtual Machines (powered by Virtnbdbackup)<Overview/>
-  <Category>Backup<Category/>
-  <WebUI/>
-  <TemplateURL/>
-  <Icon/>
   <ExtraParams>--device /dev/fuse --cap-add SYS_ADMIN</ExtraParams>
+  <WebUI/>
+  <MyIP/>
   <PostArgs/>
   <CPUset/>
   <DateInstalled/>
   <DonateText/>
   <DonateLink/>
   <Requires/>
+  <Changes/>
 
   <Config Name="Time Zone"
           Target="TZ" Default=""
