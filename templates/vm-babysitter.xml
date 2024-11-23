@@ -7,6 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
+  <Forum/>
   <Support>https://github.com/Staffwerke/vm-babysitter/issues</Support>
   <Project>https://github.com/Staffwerke/vm-babysitter</Project>
   <ReadMe>https://github.com/Staffwerke/vm-babysitter?tab=readme-ov-file#readme</ReadMe>
@@ -24,15 +25,18 @@ Features:&#xD;
  - Assume a different behavior when detects the server has been started recently, assuming the possibility of a previous crash, and therefore a more strict check of backup chains (Unraid feature)</Overview>
   <Category>Backup: Status:Stable</Category>
   <WebUI/>
-  <TemplateURL>https://raw.githubusercontent.com/Staffwerke/unraid-templates/refs/heads/master/templates/vm-babysitter.xml</TemplateURL>
+  <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/Staffwerke/unraid-templates/refs/heads/master/icons/vm-babysitter-icon.png</Icon>
   <ExtraParams>--device /dev/fuse --cap-add SYS_ADMIN</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1732339153</DateInstalled>
+  <DateInstalled/>
   <DonateText/>
   <DonateLink/>
-  <Requires/>
+  <Requires>**Unraid VM Manager Enabled**<Requires>
+  <MinVer>6.10.0</MinVer>
+  <Changes>First public release</Changes>
+  <ExtraSearchTerms>debian virtualization kvm qemu backup-manager libvirt incremental-backups sysadmin-tasks sysadmin-tool virtnbdbackup scheduled-tasks checkpoints</ExtraSearchTerms>
 
   <Config Name="Time Zone"
           Target="TZ" Default=""
