@@ -33,7 +33,7 @@ Features:&#xD;
   <DateInstalled/>
   <DonateText/>
   <DonateLink/>
-  <Requires>**Unraid VM Manager Enabled**<Requires>
+  <Requires>**Unraid VM Manager Enabled**</Requires>
   <MinVer>6.10.0</MinVer>
   <Changes>First public release</Changes>
   <ExtraSearchTerms>debian virtualization kvm qemu backup-manager libvirt incremental-backups sysadmin-tasks sysadmin-tool virtnbdbackup scheduled-tasks checkpoints</ExtraSearchTerms>
