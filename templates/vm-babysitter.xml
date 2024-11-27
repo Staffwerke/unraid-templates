@@ -35,7 +35,8 @@ Features:&#xD;
   <DonateLink/>
   <Requires>**Unraid VM Manager Enabled**</Requires>
   <MinVer>6.10.0</MinVer>
-  <Changes>First public release</Changes>
+  <Changes>2.0.0 First public release &#xD;
+2.0.1 Fixed SSH exit code not being shown &#xD;</Changes>
   <ExtraSearchTerms>debian virtualization kvm qemu backup-manager libvirt incremental-backups sysadmin-tasks sysadmin-tool virtnbdbackup scheduled-tasks checkpoints</ExtraSearchTerms>
 
   <Config Name="Time Zone"
