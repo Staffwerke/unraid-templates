@@ -35,8 +35,7 @@ Features:&#xD;
   <DonateLink/>
   <Requires>**Unraid VM Manager Enabled**</Requires>
   <MinVer>6.10.0</MinVer>
-  <Changes>2.0.0 First public release &#xD;
-2.0.1 Fixed SSH exit code not being shown &#xD;</Changes>
+  <Changes>https://github.com/Staffwerke/vm-babysitter/tags</Changes>
   <ExtraSearchTerms>debian virtualization kvm qemu backup-manager libvirt incremental-backups sysadmin-tasks sysadmin-tool virtnbdbackup scheduled-tasks checkpoints</ExtraSearchTerms>
 
   <Config Name="Time Zone"
