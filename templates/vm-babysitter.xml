@@ -8,7 +8,7 @@
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Forum/>
-  <Support>https://github.com/Staffwerke/vm-babysitter/issues</Support>
+  <Support>https://forums.unraid.net/topic/187762-support-vm-babysitter</Support>
   <Project>https://github.com/Staffwerke/vm-babysitter</Project>
   <ReadMe>https://github.com/Staffwerke/vm-babysitter?tab=readme-ov-file#readme</ReadMe>
   <License>GPLv3</License>
